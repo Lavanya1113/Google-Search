@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced search</title>
+    <link rel="stylesheet" href="searchcss.css">
+    <style>
+        body{
+            margin-left: 30px;
+        }
+        h2{
+            color: rgb(216, 77, 35);
+        }
+    </style>
+
+</head>
+<body>
+    <a href="index.html">Google Search</a>
+    <br>
+    <h2>Advanced Search</h2>
+    <hr><br>
+        <h4>Find pages with..</h4>
+   <form action="https://www.google.com/search">
+    <div class="row-input">
+       <div class="left">
+        <p>all these words:</p>
+       </div>
+       <div class="right">
+        <input type="text" name="as_q" class="form-control">
+       </div>
+    </div>
+    <div class="row-input">
+        <div class="left">
+         <p>this extract word or phrase:</p>
+        </div>
+        <div class="right">
+         <input type="text" name="as_epq" class="form-control">
+        </div>
+     </div>
+     <div class="row-input">
+        <div class="left">
+         <p>any of these words:</p>
+        </div>
+        <div class="right">
+         <input type="text" name="as_oq" class="form-control">
+        </div>
+     </div>
+     <div class="row-input">
+        <div class="left">
+         <p>none of these words:</p>
+        </div>
+        <div class="right">
+         <input type="text" name="as_eq" class="form-control">
+        </div>
+     </div>
+     <div>
+        <input type="submit" value="Advanced Search" class="btnk">
+     </div>
+   </form>
+
+</body>
+</html>
